@@ -1,0 +1,129 @@
+body {
+  font-family: "Hammersmith One", sans-serif;
+}
+.nav-item {
+  color: white;
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2em;
+}
+.nav-item:hover {
+  background-color: rgb(21, 226, 226);
+}
+.navbar-brand {
+  color: rgb(22, 255, 1);
+  font-size: 2rem;
+}
+.navbar-brand:hover {
+  background-color: rgb(0, 217, 255);
+  cursor: pointer;
+}
+#img {
+  background: url("./img/new.jpg") no-repeat center center/cover;
+  height: 95vh;
+}
+.col-lg-6 {
+  color: rgb(0, 255, 21);
+}
+.col-lg-6 h1 {
+  color: rgb(255, 255, 255);
+}
+.download-button {
+  margin: 5% 3% 3% 0;
+}
+.head {
+  border-radius: 80%;
+}
+.feature-box {
+  padding: 7%;
+  text-align: center;
+}
+.row i {
+  color: rgb(0, 255, 42);
+}
+.row i:hover {
+  color: rgb(0, 153, 25);
+}
+.testimonial {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: rgb(90, 86, 86);
+  color: rgb(255, 255, 255);
+}
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.logo {
+  text-align: center;
+  background-color: rgb(90, 86, 86);
+}
+.logo img {
+  width: 15%;
+  height: 100px;
+  margin: 20px 20px 50px;
+  border-radius: 100%;
+}
+.item2 {
+  background-color: red;
+  color: black;
+}
+.item3 {
+  background-color: rgb(255, 251, 0);
+  color: black;
+}
+.item1 {
+  background-color: rgb(0, 47, 255);
+  color: black;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.row {
+  text-align: center;
+}
+.head1 {
+  margin-top: 200px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.navbtn {
+  color: green;
+}
+.footer {
+  padding: 3%;
+  text-align: center;
+  background-color: rgb(31, 27, 27);
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  list-style: none;
+}
+footer h3 {
+  color: green;
+}
+/* media query*/
+
+@media (max-width: 900px) {
+  .head {
+    height: 200px;
+    width: 200px;
+    margin-top: -150px;
+  }
+}
+@media (max-width: 600px) {
+  .head {
+    height: 150px;
+    width: 150px;
+  }
+}
